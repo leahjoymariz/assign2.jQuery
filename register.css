@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 235, 235, 0.89);
+}
+li, a, button{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgb(3, 95, 175);
+    text-decoration: none;
+}
+.navbar{
+    list-style: none;
+   
+
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 40;
+    
+    
+}
+.navbar li a{
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+.navbar li a:hover {
+    color:rgb(18, 168, 209);
+
+}
+
+button{
+    padding: 9px 25px;
+    background-color:rgb(174, 204, 205);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color :rgb(35, 166, 170);
+}
+
